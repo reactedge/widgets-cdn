@@ -1,0 +1,19 @@
+services:
+  widgets-cdn:
+    image: nginx:1.27-alpine
+    container_name: nginx_cdn_widgets
+    ports:
+      - "8098:80"
+      - "8459:443"
+    volumes:
+      - ./docker/nginx_vite/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./docker/nginx_vite/ssl:/etc/nginx/ssl:ro
+      - ./www:/usr/share/nginx/html:ro
+    restart: unless-stopped
+
+    networks:
+      - mageos_network
+
+networks:
+  mageos_network:
+    external: true

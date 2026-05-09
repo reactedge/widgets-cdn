@@ -1,0 +1,29 @@
+name: Deploy CDN Assets
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-cdn:
+    runs-on: ubuntu-latest
+    environment: reactedge
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.WIDGET_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+          ssh-keyscan -H ${{ secrets.WIDGET_SSH_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Sync CDN assets
+        run: |
+          rsync -avz --delete \
+            ./www/ \
+            ${{ secrets.WIDGET_SSH_USER }}@${{ secrets.WIDGET_SSH_HOST }}:/var/www/cdn/
