@@ -8,3 +8,5 @@
 .env
 widget.local.crt
 widget.local.key
+*.bundle.css
+node_modules

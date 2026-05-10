@@ -27,3 +27,7 @@ jobs:
           rsync -avz --delete \
             ./www/ \
             ${{ secrets.WIDGET_SSH_USER }}@${{ secrets.WIDGET_SSH_HOST }}:/var/www/cdn/
+
+      - name: Build CSS bundles
+        run: |
+          npx tsx scripts/build-all-css-bundles.ts
