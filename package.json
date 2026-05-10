@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build:css": "tsx scripts/build-all-css-bundles.ts"
+  },
   "dependencies": {
     "dotenv": "^17.4.2",
     "fs": "^0.0.1-security",
