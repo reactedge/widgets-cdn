@@ -22,14 +22,14 @@ jobs:
 
           ssh-keyscan -H ${{ secrets.WIDGET_SSH_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Sync CDN assets
-        run: |
-          rsync -avz --delete \
-            ./www/ \
-            ${{ secrets.WIDGET_SSH_USER }}@${{ secrets.WIDGET_SSH_HOST }}:/var/www/cdn/
-
       - name: Install dependencies
         run: npm ci
 
       - name: Build CSS bundles
         run: npm run build:css
+
+      - name: Sync CDN assets
+        run: |
+          rsync -avz --delete \
+            ./www/ \
+            ${{ secrets.WIDGET_SSH_USER }}@${{ secrets.WIDGET_SSH_HOST }}:/var/www/cdn/
