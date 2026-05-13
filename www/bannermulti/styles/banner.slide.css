@@ -1,9 +1,9 @@
-.re-banner-track--tiles {
+bannermulti-widget .re-banner-track--tiles {
     display: flex;
     gap: 8px;
 }
 
-.re-banner-slide {
+bannermulti-widget .re-banner-slide {
     flex: 1;
 
     display: flex;
@@ -23,7 +23,7 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.re-banner-slide img {
+bannermulti-widget .re-banner-slide img {
     padding: 5px;
     width: 100%;
     display: block;

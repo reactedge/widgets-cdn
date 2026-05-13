@@ -1,11 +1,11 @@
-.storeResults {
+storefinder-widget .storeResults {
     margin-top: var(--sf-space-lg);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: var(--sf-space-lg);
 }
 
-.storeCard {
+storefinder-widget .storeCard {
     border: 1px solid var(--sf-color-border);
     border-radius: 6px;
     padding: var(--sf-space-md);
@@ -17,34 +17,34 @@
     justify-content: space-between;
 }
 
-.storeCard__header {
+storefinder-widget .storeCard__header {
     margin-bottom: var(--sf-space-sm);
 }
 
-.storeCard__title {
+storefinder-widget .storeCard__title {
     margin: 0;
     font-size: 18px;
     font-weight: 600;
     color: var(--sf-color-text);
 }
 
-.storeCard__body {
+storefinder-widget .storeCard__body {
     margin-bottom: var(--sf-space-md);
 }
 
-.storeCard__line {
+storefinder-widget .storeCard__line {
     margin: 4px 0;
     font-size: 14px;
     color: var(--sf-color-muted);
 }
 
-.storeCard__distance {
+storefinder-widget .storeCard__distance {
     margin: 4px 0;
     font-size: 14px;
     font-weight: 600;
     color: var(--sf-color-primary);
 }
 
-.storeResults__empty {
+storefinder-widget .storeResults__empty {
     margin-top: var(--sf-space-lg);
 }

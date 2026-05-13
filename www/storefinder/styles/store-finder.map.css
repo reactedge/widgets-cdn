@@ -1,9 +1,9 @@
-.storeMap {
+storefinder-widget .storeMap {
     position: relative;
     width: 100%;
 }
 
-.storeMap__title {
+storefinder-widget .storeMap__title {
     position: absolute;
     top: 100px;
     left: 12px;

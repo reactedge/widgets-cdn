@@ -1,4 +1,4 @@
-.arrows-container {
+banner-widget .arrows-container {
     position: absolute;
     top: 50%;
     left: 0;
@@ -13,7 +13,7 @@
     pointer-events: none;
 }
 
-.arrow-btn {
+banner-widget .arrow-btn {
     pointer-events: auto;
     width: 30px;
     height: 30px;
@@ -34,23 +34,23 @@
     transition: opacity 0.15s ease, transform 0.15s ease;
 }
 
-.arrow-btn :active {
+banner-widget .arrow-btn :active {
     transform: scale(0.95);
 }
 
-.arrow-btn:hover {
+banner-widget .arrow-btn:hover {
     background: rgba(248, 248, 245, 0.75);
 }
 
-.arrow-btn:active {
+banner-widget .arrow-btn:active {
     transform: scale(0.95);
 }
 
-.arrow-btn:focus-visible {
+banner-widget .arrow-btn:focus-visible {
     outline: 2px solid #fff;
     outline-offset: 2px;
 }
 
-button {
+banner-widget button {
     min-width: unset;
 }

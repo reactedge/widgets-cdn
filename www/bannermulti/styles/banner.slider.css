@@ -1,45 +1,45 @@
-.uspSlider {
+bannermulti-widget .uspSlider {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-.uspSlider__inner {
+bannermulti-widget .uspSlider__inner {
     position: relative;
     width: 100%;
 }
 
-.banner-media {
+bannermulti-widget .banner-media {
     position: relative;
     width: 100%;
 }
 
-.re-banner-media {
+bannermulti-widget .re-banner-media {
     width: 100%;
 }
 
-.re-banner-viewport {
+bannermulti-widget .re-banner-viewport {
     position: relative;
     width: 100%;
 }
 
-.re-banner-track {
+bannermulti-widget .re-banner-track {
     width: 100%;
 }
 
 /* multi-slide (tiles) */
-.re-banner-track--tiles {
+bannermulti-widget .re-banner-track--tiles {
     display: flex;
     gap: 16px;
 }
 
 /* hero banner mode */
-.re-banner-track--single {
+bannermulti-widget .re-banner-track--single {
     position: relative;
 }
 
 /* navigation area */
-.re-banner-navigation {
+bannermulti-widget .re-banner-navigation {
     display: flex;
     justify-content: center;
     align-items: center;
