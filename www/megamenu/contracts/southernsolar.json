@@ -1,0 +1,16 @@
+{
+  "runtime": {
+    "platform": "wordpress"
+  },
+  "data": {
+    "items": []
+  },
+  "settings": {
+    "theme": {
+      "dataLocale" : "en-GB",
+      "fontColor": "#495057",
+      "primaryColor": "#ff5c35",
+      "secondaryColour": "#2C3E7C"
+    }
+  }
+}
