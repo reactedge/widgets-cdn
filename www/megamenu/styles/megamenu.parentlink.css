@@ -1,16 +1,16 @@
-megamenu-widget .mw-parent-item,
-megamenu-widget .mw-parent-link {
+.mw-parent-item,
+.mw-parent-link {
     text-decoration: none;
     color: var(--nav-color);
 }
 
-megamenu-widget .mw-parent-item {
+.mw-parent-item {
     position: relative;
     cursor: pointer;
     color: var(--nav-color);
 }
 
-megamenu-widget .mw-parent-label {
+.mw-parent-label {
     display: inline-flex;
     align-items: center;
     gap: 0.25rem;
@@ -20,22 +20,22 @@ megamenu-widget .mw-parent-label {
     white-space: nowrap;
 }
 
-megamenu-widget .mw-parent-label.is-active {
+.mw-parent-label.is-active {
     border-bottom: var(--parent-border-active);
     border-bottom: 2px solid var(--cta-bg-hover);
 }
 
-megamenu-widget .mw-parent-label.is-breadcrumb {
+.mw-parent-label.is-breadcrumb {
     border-bottom: var(--parent-border-breadcrumb);
     border-bottom: 2px solid var(--cta-bg-hover);
 }
 
-megamenu-widget .mw-parent-arrow {
+.mw-parent-arrow {
     font-size: 0.7em;
 }
 
 @media (max-width: 768px) {
-    megamenu-widget .mw-parent-link {
+    .mw-parent-link {
         padding: 0;
     }
 }

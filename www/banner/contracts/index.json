@@ -1,10 +1,5 @@
 {
   "contracts": [
-    "fr.json",
-    "reactedge.json",
-    "mageosuk4.json",
-    "mageosuk5.json",
-    "mageosuk6.json",
-    "mageosuk7.json"
+    "southernsolar.json"
   ]
 }

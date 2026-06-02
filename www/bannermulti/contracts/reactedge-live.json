@@ -92,7 +92,8 @@
         "tablet": "slider",
         "mobile": "slider"
       },
-      "height": "270px",
+      "imageWidth": 360,
+      "imageHeight": 170,
       "visibleSlides": 2
     }
   }

@@ -1,11 +1,11 @@
-usp-widget .usp-slide {
+.usp-slide {
     color: inherit;
 }
 
-usp-widget .usp-item {
+.usp-item {
     flex: 1;
 }
-usp-widget .usp-separator {
+.usp-separator {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@ usp-widget .usp-separator {
     gap: 3px;
 }
 
-usp-widget .usp-separator span {
+.usp-separator span {
     width: 3px;
     height: 3px;
     background: #ccc;
@@ -21,7 +21,7 @@ usp-widget .usp-separator span {
     display: block;
 }
 
-usp-widget .usp-static-bar [data-usp-slide] {
+.usp-static-bar [data-usp-slide] {
     text-align: center;
     width: 100%;
 }

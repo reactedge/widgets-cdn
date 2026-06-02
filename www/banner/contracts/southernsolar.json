@@ -25,11 +25,12 @@
     ],
     "settings": {
       "mode": {
-        "desktop": "static",
+        "desktop": "slider",
         "tablet": "slider",
         "mobile": "slider"
       },
-      "height": "300px"
+      "imageWidth": 466,
+      "imageHeight": 186
     }
   }
 }

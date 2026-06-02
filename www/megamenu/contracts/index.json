@@ -1,7 +1,5 @@
 {
   "contracts": [
-    "default.json",
-    "fr.json",
-    "uk.json"
+    "southernsolar.json"
   ]
 }

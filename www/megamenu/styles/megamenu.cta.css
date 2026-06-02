@@ -1,4 +1,4 @@
-megamenu-widget .mw-cta-link {
+.mw-cta-link {
     display: inline-flex;
     align-items: center;
     font-size: var(--cta-font-size);
@@ -12,16 +12,16 @@ megamenu-widget .mw-cta-link {
     transition: background 150ms ease;
 }
 
-megamenu-widget .mw-cta-link:hover {
+.mw-cta-link:hover {
     background: var(--cta-bg-hover);
 }
 
-megamenu-widget .mw-cta-link__label {
+.mw-cta-link__label {
     line-height: 1;
     white-space: nowrap;
     color: inherit;
 }
 
-megamenu-widget .mw-cta-link__icon {
+.mw-cta-link__icon {
     display: inline-flex;
 }

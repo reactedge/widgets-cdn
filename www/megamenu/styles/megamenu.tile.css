@@ -1,4 +1,4 @@
-megamenu-widget .mw-menu-tile {
+.mw-menu-tile {
     display: flex;
     flex-direction: column;
     gap: var(--tile-gap);
@@ -9,17 +9,17 @@ megamenu-widget .mw-menu-tile {
     transition: background var(--tile-transition);
 }
 
-megamenu-widget .mw-menu-tile:hover {
+.mw-menu-tile:hover {
     background: var(--tile-bg-hover);
 }
 
-megamenu-widget .mw-menu-tile__image {
-    width: 100%;
+.mw-menu-tile__image {
+    width: 70%;
     height: auto;
     display: block;
 }
 
-megamenu-widget .mw-menu-tile__label {
+.mw-menu-tile__label {
     color: var(--tile-label-color);
     transition: color var(--tile-transition);
     font-size: var(--nav-font-size);
@@ -30,7 +30,7 @@ megamenu-widget .mw-menu-tile__label {
     padding-left: 10px;
 }
 
-megamenu-widget .mw-menu-tile:hover .mw-menu-tile__label {
+.mw-menu-tile:hover .mw-menu-tile__label {
     color: var(--tile-label-hover);
 }
 

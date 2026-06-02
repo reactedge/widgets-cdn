@@ -3,23 +3,20 @@
     "slides": [
       {
         "image": {
-          "src": "https://mageosuk.reactedge.net/media/wysiwyg/widgets/banner/techbeauty1.webp",
-          "alt": "Tech beauty concept 1",
-          "fallback": "https://mageosuk.reactedge.net/media/wysiwyg/widgets/banner/techbeauty1.png"
+          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/techbeauty1.webp",
+          "alt": "Tech beauty concept 1"
         }
       },
       {
         "image": {
-          "src": "https://mageosuk.reactedge.net/media/wysiwyg/widgets/banner/techbeauty2.webp",
-          "alt": "Tech beauty concept 2",
-          "fallback": "https://mageosuk.reactedge.net/media/wysiwyg/widgets/banner/techbeauty2.png"
+          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/techbeauty2.webp",
+          "alt": "Tech beauty concept 2"
         }
       },
       {
         "image": {
-          "src": "https://mageosuk.reactedge.net/media/wysiwyg/widgets/banner/techbeauty3.webp",
-          "alt": "Tech beauty concept 3",
-          "fallback": "https://mageosuk.reactedge.net/media/wysiwyg/widgets/banner/techbeauty3.png"
+          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/techbeauty3.webp",
+          "alt": "Tech beauty concept 3"
         }
       }
     ],

@@ -1,8 +1,8 @@
-usp-widget .usp-static-bar  {
+.usp-static-bar  {
     height: 40px;
 }
 
-usp-widget .usp-static-bar {
+.usp-static-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
