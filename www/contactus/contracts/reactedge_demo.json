@@ -1,0 +1,19 @@
+{
+  "data": {
+    "title": "Contact us",
+    "intro": "Are you interested to see if ReactEdge solution can help with your system?",
+    "endpoint": "/wp-json/contact/v1/send",
+    "categories": [
+      { "value": "general", "label": "General enquiry" },
+      { "value": "quote", "label": "Request a quote" }
+    ],
+    "fields": [
+      { "name": "name", "label": "Your name", "required": true },
+      { "name": "email", "label": "Email", "type": "email", "required": true },
+      { "name": "message", "label": "Message", "type": "textarea", "required": true }
+    ]
+  },
+  "integrations": {
+    "require": ["cloudflare"]
+  }
+}
