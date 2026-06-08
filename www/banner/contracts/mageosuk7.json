@@ -3,13 +3,13 @@
     "slides": [
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/techbeauty1.webp",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/banner/techbeauty1.webp",
           "alt": "Beauty and technology fusion"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/techbeauty3.webp",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/banner/techbeauty3.webp",
           "alt": "Digital beauty transformation"
         }
       }

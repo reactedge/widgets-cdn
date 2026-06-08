@@ -3,31 +3,31 @@
     "slides": [
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/ai1.jpeg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/banner/ai1.jpeg",
           "alt": "AI concept visual 1"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/ai2.jpeg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/banner/ai2.jpeg",
           "alt": "AI concept visual 2"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/ai3.jpeg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/banner/ai3.jpeg",
           "alt": "AI concept visual 3"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/ai4.jpeg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/banner/ai4.jpeg",
           "alt": "AI concept visual 4"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/ai5.jpeg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/banner/ai5.jpeg",
           "alt": "AI concept visual 5"
         }
       }

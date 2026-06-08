@@ -3,19 +3,19 @@
     "slides": [
       {
         "image": {
-          "src": "http://digitalrisedorset.com/wp-content/themes/digitalrisedorset/images/luma-project/megamenu.png",
+          "src": "{{TARGET_URL}}/wp-content/themes/digitalrisedorset/images/luma-project/megamenu.png",
           "alt": "Vitalising your system without rebuilding"
         }
       },
       {
         "image": {
-          "src": "http://digitalrisedorset.com/wp-content/themes/digitalrisedorset/images/luma-project/searchassistant.png",
+          "src": "{{TARGET_URL}}/wp-content/themes/digitalrisedorset/images/luma-project/searchassistant.png",
           "alt": "Successful Dev Talk in Dorset with dev.talk bournemouth group"
         }
       },
       {
         "image": {
-          "src": "http://digitalrisedorset.com/wp-content/themes/digitalrisedorset/images/luma-project/storefinder.png",
+          "src": "{{TARGET_URL}}/wp-content/themes/digitalrisedorset/images/luma-project/storefinder.png",
           "alt": "Successful Dev Talk in Dorset with dev.talk bournemouth group"
         }
       }

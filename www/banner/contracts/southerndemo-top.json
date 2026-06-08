@@ -3,13 +3,13 @@
     "slides": [
       {
         "image": {
-          "src": "https://southerndemo.com/wp-content/themes/greenedge/images/home-banner/image5.webp",
+          "src": "{{TARGET_URL}}/wp-content/themes/greenedge/images/home-banner/image5.webp",
           "alt": "Close-up of green leaves with natural texture"
         }
       },
       {
         "image": {
-          "src": "https://southerndemo.com/wp-content/themes/greenedge/images/home-banner/image6.webp",
+          "src": "{{TARGET_URL}}/wp-content/themes/greenedge/images/home-banner/image6.webp",
           "alt": "Green leaf with a drop of rain resting on the surface"
         }
       }

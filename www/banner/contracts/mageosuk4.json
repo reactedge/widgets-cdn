@@ -3,19 +3,19 @@
     "slides": [
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/techbeauty1.webp",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/banner/techbeauty1.webp",
           "alt": "Tech beauty concept 1"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/techbeauty2.webp",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/banner/techbeauty2.webp",
           "alt": "Tech beauty concept 2"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/banner/techbeauty3.webp",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/banner/techbeauty3.webp",
           "alt": "Tech beauty concept 3"
         }
       }

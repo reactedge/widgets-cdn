@@ -134,21 +134,21 @@
             "id": "NA==",
             "label": "Bags",
             "url": "/gear/bags",
-            "image": "https://mageos-docker.magsite.co.uk/media/catalog/category/bag.jpg",
+            "image": "{{TARGET_URL}}/media/catalog/category/bag.jpg",
             "children": []
           },
           {
             "id": "NQ==",
             "label": "Fitness Equipment",
             "url": "/gear/fitness-equipment",
-            "image": "https://mageos-docker.magsite.co.uk/media/catalog/category/equipment.jpg",
+            "image": "{{TARGET_URL}}/media/catalog/category/equipment.jpg",
             "children": []
           },
           {
             "id": "Ng==",
             "label": "Watches",
             "url": "/gear/watches",
-            "image": "https://mageos-docker.magsite.co.uk/media/catalog/category/watches.jpg",
+            "image": "{{TARGET_URL}}/media/catalog/category/watches.jpg",
             "children": []
           }
         ]

@@ -3,85 +3,85 @@
     "slides": [
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/banner.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/banner.svg",
           "alt": "ReactEdge Banner Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/usp.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/usp.svg",
           "alt": "ReactEdge USP Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/megamenu.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/megamenu.svg",
           "alt": "ReactEdge Mega Menu Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/minicart.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/minicart.svg",
           "alt": "ReactEdge Minicart Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/productgallery.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/productgallery.svg",
           "alt": "ReactEdge Product Gallery Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/storefinder.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/storefinder.svg",
           "alt": "ReactEdge Store Finder Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/intentdiscovery.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/intentdiscovery.svg",
           "alt": "ReactEdge Intent Discovery Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/booking.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/booking.svg",
           "alt": "ReactEdge Booking Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/contact.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/contact.svg",
           "alt": "ReactEdge Contact Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/googlereviews.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/googlereviews.svg",
           "alt": "ReactEdge Google Reviews Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/azgridlisting.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/azgridlisting.svg",
           "alt": "ReactEdge A-Z Grid Listing Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/regionmap.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/regionmap.svg",
           "alt": "ReactEdge Region Map Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/deckingcalculator.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/deckingcalculator.svg",
           "alt": "ReactEdge Decking Calculator Widget"
         }
       },
       {
         "image": {
-          "src": "https://mageos-docker.magsite.co.uk/media/wysiwyg/widgets/svg/staircasecalculator.svg",
+          "src": "{{TARGET_URL}}/media/wysiwyg/widgets/svg/staircasecalculator.svg",
           "alt": "ReactEdge Staircase Calculator Widget"
         }
       }
